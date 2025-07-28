@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bonjour</title>
+    <style>
+        body {
+            background-color: #64CDE8;
+            font-family: Courier, monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .button {
+            font-size: 25px;
+            padding: 15px 30px;
+            margin: 20px;
+            background-color: white;
+            border: none;
+            border-radius: 10px;
+            color: #000;
+            cursor: pointer;
+        }
+        .blue-text {
+            color: #0C19CF;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button" onclick="window.open('https://www.youtube.com/@FuzeIII', '_blank')">Ouvre Youtube Fuze</button><br>
+
+    <button class="button" onclick="window.open('https://www.youtube.com/results?search_query=ksp+fr', '_blank')">KSP FR</button><br>
+
+    <button class="button" onclick="window.open('https://www.youtube.com/', '_blank')">Ouvrir Youtube Accueil</button><br>
+
+    <button class="button blue-text" onclick="window.open('https://www.youtube.com/@theo_ksp5546', '_blank')">Ouvrir Youtube KSP1080p</button>
+
+</body>
+</html>
